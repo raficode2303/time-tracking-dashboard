@@ -1,0 +1,26 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+/* css var customs */
+:root {
+  --blue: hsl(246, 80%, 60%);
+  /* work */
+  --light-red: hsl(15, 100%, 70%);
+  /* play */
+  --soft-blue: hsl(195, 74%, 62%);
+  /* study */
+  --light-red: hsl(348, 100%, 68%);
+  /* exercise */
+  --lime-green: hsl(145, 58%, 55%);
+  /* social */
+  --violet: hsl(264, 64%, 52%);
+  /* self care */
+  --soft-orange: hsl(43, 84%, 65%);
+  --font: 'Rubik';
+}
+
+body {
+  /* Font size: 18px (card titles e.g. Work, Play) */
+  font-size: 18px;
+  font-family: var(--font, sans-serif);
+  /* Weights: 300, 400, 500 */
+}
