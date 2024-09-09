@@ -1,6 +1,6 @@
 /* - Mobile: 375px
 - Desktop: 1440px */
-/* css var customs */
+/* css  custom properties */
 :root {
   /* ## Colors */
   /* ### Primary */
@@ -18,8 +18,13 @@
   --pale-blue: hsl(236, 100%, 87%);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
+  /* main color */
+  --main-clr: var(var(--dark-blue));
   /* ## Fonts */
   --font: 18px 'Rubik', sans-serif;
+  /* ## other */
+  --border-radius: 0.5rem;
+  --gap1: 1rem;
 }
 
 body {
