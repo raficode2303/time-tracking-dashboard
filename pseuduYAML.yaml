@@ -1,0 +1,13 @@
+Counter:
+  Props:
+    - initialCount: number
+    - onCounterChange: function
+  State:
+    - name: string
+  EventHandlers:
+    - .....
+    - .........
+  Render:
+    - kckkdckd
+    - cdmcdcdm
+# yaml-like file Example
