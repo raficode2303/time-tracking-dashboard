@@ -1,13 +1,58 @@
-Counter:
-  Props:
-    - initialCount: number
-    - onCounterChange: function
-  State:
-    - name: string
-  EventHandlers:
-    - .....
-    - .........
-  Render:
-    - kckkdckd
-    - cdmcdcdm
-# yaml-like file Example
+
+# PROTOTYPE
+# =========
+# shared classes
+ShardClasses:
+  .text-decoration-none: {text-decoration: none;}
+  .text-secondary {color: var(--desaturated-blue);}
+  .main-clr{color: var(--main-clr);}
+  .dashboard-data {display: grid;grid-template-columns: repeat(auto-fit, minmax(fit-content, 1fr));}
+  # controlled by js
+  .active{clr: --white;}
+  body: {background-color: vary-dark-blue;color:--white;min-height:100vh;}
+  div.app: {display:grid; grid-template-columns: auto/min-content/fit-content/max-content auto; gap: --gap1;}
+    Section.user-card.main-clr: {display: grid; grid-template-rows: 2fr 1fr;}
+      Div.user-card-info:
+      Ul.user-card-subjects.text-secondary:{display: grid; gap: --gap1;}
+        li.active:
+        li:
+        li:
+    #  TODO-TRY - min-max(auto/min-content/fit-content/max-content, 1fr)
+    div.time-dashboard-container: {display: grid; grid-template-columns: repeat(auto-fit, minmax(fit-content, 1fr));}
+      "> *" {--border-radius;}
+      section.work-dashboard.card: {background-color: --light-red1 url(../icon-work.svg);}
+        div.dashboard-data.main-clr: {✅⬆️}
+          h4.title:
+          img.options:
+          h2.time:
+          p.before.text-secondary:
+      section.play-dashboard.card: {background-color: --light-blue url(../icon-play.svg);}
+        div.dashboard-data.main-clr: {✅⬆️}
+          h4.title:
+          img.options:
+          h2.time:
+          p.before.text-secondary:
+      section.study-dashboard.card: {background-color: --light-red2 url(../icon-study.svg);}
+        div.dashboard-data.main-clr: {✅⬆️}
+          h4.title:
+          img.options:
+          h2.time:
+          p.before.text-secondary:
+      section.exercise-dashboard.card: {background-color: --lime-green url(../icon-exercise.svg);}
+        div.dashboard-data.main-clr: {✅⬆️}
+          h4.title:
+          img.options:
+          h2.time:
+          p.before.text-secondary:
+      section.social-dashboard.card: {background-color: --violet url(../icon-social.svg);}
+        div.dashboard-data.main-clr: {✅⬆️}
+          h4.title:
+          img.options:
+          h2.time:
+          p.before.text-secondary:
+      section.self-care.dashboard.card: {background-color: --soft-orange url(../icon-self-care.svg);}
+        div.dashboard-data.main-clr: {✅⬆️}
+          h4.title:
+          img.options:
+          h2.time:
+          p.before.text-secondary:

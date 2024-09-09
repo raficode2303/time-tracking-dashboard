@@ -5,9 +5,9 @@
   /* ## Colors */
   /* ### Primary */
   --blue: hsl(246, 80%, 60%);
-  --light-red: hsl(15, 100%, 70%);
+  --light-red1: hsl(15, 100%, 70%);
   --soft-blue: hsl(195, 74%, 62%);
-  --light-red: hsl(348, 100%, 68%);
+  --light-red2: hsl(348, 100%, 68%);
   --lime-green: hsl(145, 58%, 55%);
   --violet: hsl(264, 64%, 52%);
   --soft-orange: hsl(43, 84%, 65%);
@@ -26,9 +26,31 @@
   --border-radius: 0.5rem;
   --gap1: 1rem;
 }
-
 body {
   /* Font size: 18px (card titles e.g. Work, Play) */
   font: var(--font, 18px sans-serif);
   /* Weights: 300, 400, 500 */
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  font: inherit;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+/* share classes */
+.text-secondary {
+  color: var(--desaturated-blue);
+}
+.main-clr {
+  color: var(--main-clr);
+}
+.dashboard-data {
+  display: grid;
+  /* min-max(auto/min-content/fit-content/max-content, 1fr) - TODO: */
+  grid-template-columns: repeat(auto-fit, minmax(fit-content, 1fr));
 }
